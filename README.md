@@ -9,7 +9,7 @@ Scripts para geração de base de grafos em Neo4j dos dados públicos de Composi
 ## O processo de geração da base consiste em 3 etapas (script popula-grafo.cql):
 - Carga via **neo4j-admin** dos csv (empresas.csv.gz e socios.csv.gz) baixados do site da Receita Federal em uma base chamada **carga**, gerando uma base sem relacionamentos e com apenas dois tipos de nós rotulados: Empresa e Socio.
 - Execução de queries sobre os dados na base **carga** para identificar e gerar as composições societárias de pessoas físicas, jurídicas e de estrangeiros, exportando-os como arquivos csv
-- Carga dos novos csvs gerados na etapa anterior para uma nova base **receita**, dessa vez gerando uma base com relacionamentos e com nós separados para pessoa física, jurídica e estrangeiros
+- Carga dos novos csvs gerados na etapa anterior, também via **neo4j-admin** para uma nova base **receita**, dessa vez gerando uma base com relacionamentos e distinção dos sócios rotulados por pessoa física, jurídica e estrangeiros
 
 ## Resultado esperado:
 - 1 base **carga** sem relacionamentos e com os dados brutos da carga dos arquivos da Receita

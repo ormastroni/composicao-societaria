@@ -2,7 +2,7 @@
 Scripts para geração de base de grafos em Neo4j dos dados públicos de Composição Societária da Receita Federal
 
 ## Pré-requisitos:
-- Você deve ter o Neo4j Desktop instalado na sua máquina, porque este processo de carga utiliza a ferramenta de carga em lot (bulk) neo4j-admin
+- Você deve ter o Neo4j Desktop instalado na sua máquina, porque este processo de carga utiliza a ferramenta de carga em lote (bulk) neo4j-admin
 - Instalação do plugin APOC na sua instância Neo4j (exportação do resultado de queries Cypher em arquivos csv)
 
 ## O processo de geração da base consiste em 3 etapas (script popula-grafo.cql):

@@ -16,7 +16,7 @@ Scripts para geração de base de grafos em Neo4j dos dados públicos de Composi
 - 1 base **receita** com relacionamentos e nós rotulados de Pessoas, Empresas e Estrangeiros carregados a partir dos csvs carregados das queries de tratamento de sócios
 
 ## Referências e idéias similares
-- [Dados abertos Receita Federal] (https://www.gov.br/receitafederal/pt-br/assuntos/orientacao-tributaria/cadastros/consultas/dados-publicos-cnpj)
+- [Dados abertos Receita Federal](https://www.gov.br/receitafederal/pt-br/assuntos/orientacao-tributaria/cadastros/consultas/dados-publicos-cnpj)
 - [CNPJ-full](https://github.com/fabioserpa/CNPJ-full)
 - [API pública cuducos](https://github.com/cuducos/minha-receita)
-- [Rede CNPJ] (https://github.com/rictom/rede-cnpj)
+- [Rede CNPJ](https://github.com/rictom/rede-cnpj)
